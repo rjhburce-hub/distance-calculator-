@@ -1,0 +1,19 @@
+#Calculate kilometers to miles
+
+#Collect the distance in kilometers
+x=float(input( "Enter distance in kilometers:"))
+
+#Calculate the given distance to miles
+y=0.621371
+z=x*y
+print("Distance in miles",z)
+
+#Confirm if the user wants to convert again
+a=input("Do you want to convert another distance?  (yes/no):")
+
+if a=="yes":
+    q=float(input("Enter distance in kilometers:"))
+    r=q*y
+    print("Distance in miles:", r)
+else:
+    print("Program ended")
